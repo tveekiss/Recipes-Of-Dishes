@@ -1,0 +1,50 @@
+.dish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dish__title {
+    border: 1px solid rgb(152, 140, 140);
+    border-radius: 15px;
+    padding: 15px;
+    background-color: aliceblue;
+}
+
+.dish__name {
+    font-size: 3rem;
+    font-family: Roboto-Black, sans-serif;
+}
+
+.dish__image {
+    width: 1280px;
+    height: 960px;
+}
+
+.dish__description {
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 20px;
+    width: 1280px;
+}
+
+.dish__ingredients__title,
+.dish_recipe__title {
+    font-family: Roboto-Black, sans-serif;
+    text-align: center;
+    margin: 30px;
+
+}
+
+.dish__ingredients,
+.dish__recipe {
+    font-size: 22px;
+    font-family: Roboto-Medium, sans-serif;
+    
+    width: 1280px;
+    text-align: justify;
+}
+
+.dish__recipe {
+    
+    font-family: Roboto-Regular, sans-serif;
+}

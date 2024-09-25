@@ -1,0 +1,40 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__title {
+    font-size: 3rem;
+    font-family: Roboto-Black, sans-serif;
+}
+
+.home__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px; 
+}
+
+.home__main__category {
+    border: 2px solid rgb(152, 140, 140);
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.home__main__category:hover {
+    background-color: gray;
+}
+
+.home__main__category > p {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.home__main__category > img {
+    width: 540px;
+    height: 320px;
+}

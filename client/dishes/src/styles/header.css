@@ -1,0 +1,10 @@
+.header {
+    background: gray;
+    padding: 20px;
+}
+
+.header__logo-title {
+    font-family: Roboto-Italic, sans-serif;
+    font-size: 2rem;
+
+}
